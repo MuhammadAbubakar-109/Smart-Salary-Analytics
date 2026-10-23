@@ -23,19 +23,25 @@ API Testing: Test backend endpoints to verify API functionality.
 
 #### Backend
 
-Python
+Python(Numpy,Pandas,Scikit-Learn)
+
 FastAPI
+
 Joblib
+
 Machine Learning
-REST API
+
 
 #### Frontend
 
 React
+
 TypeScript
+
 CSS
 
 #### Project Structure
+
 SmartSalary-Analytics/
 ├── backend/
 │   ├── main.py
