@@ -1,17 +1,16 @@
-# Salary estimator — frontend (React + TypeScript + Vite)
+### Frontend Setup
 
-## Run
-1. Backend (from the backend folder):  `uvicorn main:app --reload`   → http://127.0.0.1:8000
-2. Frontend (this folder):  `npm install` then `npm run dev`          → http://localhost:5173
+SmartSalary Analytics uses React, TypeScript, and Vite for its frontend.
 
-Dev requests go to `/api/*` and Vite proxies them to port 8000, so no CORS setup is needed.
+Prerequisites
+Python and backend dependencies
+Node.js and npm
+Run the Backend
 
-## Production
-Set `VITE_API_URL` (see `.env.example`) and add CORS to `main.py`:
+Frontend URL: http://localhost:5173
 
-    from fastapi.middleware.cors import CORSMiddleware
-    app.add_middleware(CORSMiddleware, allow_origins=["https://your-site.com"],
-                       allow_methods=["*"], allow_headers=["*"])
+#### Dropdown Options
 
-## Regenerating dropdown options
-`src/options.ts` was generated from `employee_salary_dataset_10000.csv`.
+The dropdown options are stored in src/options.ts and were generated from employee_salary_dataset_10000.csv.
+
+If the dataset changes, regenerate src/options.ts to update the available options.
