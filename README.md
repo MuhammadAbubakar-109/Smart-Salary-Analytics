@@ -4,7 +4,7 @@
 
 SmartSalary Analytics is a full-stack machine learning application that predicts employee salaries using a trained machine learning model. Built with FastAPI, Joblib, React, and TypeScript, it combines a Python-based prediction API with an interactive frontend for salary estimation and analytical insights.
 
-###Features
+### Features
 Salary Prediction: Predict estimated employee salaries using a trained machine learning model.
 Interactive Prediction Interface: Enter employee attributes through a React-based interface.
 Analytics Dashboard: Explore salary-related insights through a dedicated analysis page.
