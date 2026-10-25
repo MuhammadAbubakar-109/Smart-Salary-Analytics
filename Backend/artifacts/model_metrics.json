@@ -1,0 +1,14 @@
+{
+  "model": "LinearRegression",
+  "target": "Monthly_Salary",
+  "currency": "PKR",
+  "n_rows": 10000,
+  "n_train": 8000,
+  "n_test": 2000,
+  "n_features": 31,
+  "test_size": 0.2,
+  "random_state": 42,
+  "mae": 25827.290555002026,
+  "rmse": 38146.389759676465,
+  "r2": 0.8247720747673208
+}
