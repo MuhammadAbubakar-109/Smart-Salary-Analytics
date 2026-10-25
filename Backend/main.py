@@ -31,8 +31,11 @@ from pydantic import BaseModel, Field
 #  1. CONFIGURATION
 # ═══════════════════════════════════════════════════════════
 
+
 BASE_DIR = Path(__file__).resolve().parent
+
 MODEL_PATH = BASE_DIR / "artifacts" / "model.joblib"
+
 
 
 # ═══════════════════════════════════════════════════════════
