@@ -46,16 +46,14 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 #  1. CONFIGURATION — edit these to match your project
 # ═══════════════════════════════════════════════════════════
 
-BASE_DIR = Path(__file__).resolve().parent
-
-DATASET_PATH = (
-    BASE_DIR / "data" / "employee_salary_dataset_10000.csv"
-)
 
 OUTPUT_DIR = BASE_DIR / "artifacts"
-MODEL_PATH = OUTPUT_DIR / "model.pkl"
+MODEL_PATH = OUTPUT_DIR / "model.joblib"
 METRICS_PATH = OUTPUT_DIR / "model_metrics.json"
 EVALUATION_PATH = OUTPUT_DIR / "evaluation_data.json"
+
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 
 TARGET = "Monthly_Salary"
 
